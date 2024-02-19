@@ -1,6 +1,7 @@
 var React = require("react");
 var ReactDOM = require("react-dom");
 const name="Akash";
+const place="Kundapur";
 
 ReactDOM.render(
    <div><div>
@@ -18,7 +19,7 @@ ReactDOM.render(
   </ul>
 </div>,
 <div>
-<h1>My name is {name}</h1>
+<h1>My name is {name+" "+place}</h1>
 <p>My favourite number is {Math.random()}</p>
 </div>,
 </div>,
