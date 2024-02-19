@@ -19,6 +19,7 @@ ReactDOM.render(
   <li>Noodles</li>
   </ul>
 </div>
+
 <hr></hr>
 <div>
 <h1>My name is {name+" "+place}</h1>
@@ -33,3 +34,4 @@ ReactDOM.render(
 </div>,
   document.getElementById("root")
 );
+
