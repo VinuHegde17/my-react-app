@@ -1,5 +1,7 @@
 var React = require("react");
 var ReactDOM = require("react-dom");
+const name="Akash";
+const no=8
 ReactDOM.render(
    <div><div>
    <h1>Hello World!</h1>
@@ -14,7 +16,11 @@ ReactDOM.render(
   <li>Jamon</li>
   <li>Noodles</li>
   </ul>
-</div>
+</div>,
+<div>
+<h1>My name is {name}</h1>
+<p>My favourite number is {no}</p>
+</div>,
 </div>,
   document.getElementById("root")
 );
