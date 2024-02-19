@@ -5,7 +5,7 @@ import Contact from './screens/Contact';
 
 function App() {
   return <div>
-    <About/>,
+    <About/>
     <Contact/>
   </div>
 }
