@@ -1,22 +1,18 @@
 import './App.css';
-let name ="Welcome"
+import MyButton from './screens/Btn';
+import About from './screens/About';
+import Contact from './screens/Contact';
+import Title from './screens/Title';
+import Profile from './screens/img';
+
 function App() {
   return (
 <>
-<div className="App">
-<nav>
-  <li>Home</li>
-  <li>About</li>
-  <li>Contact</li>
-</nav>
-</div>
-<div className="Container">
-  <h1>Hello {name}</h1>
-  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque velit harum, officia, laboriosam quod laudantium dolorem veniam alias deleniti iure nostrum illo quibusdam fuga aliquam dolore natus, deserunt dolores voluptatem!
-</div>
-
-
-
+<MyButton/>
+<About/>
+<Contact/>
+<Title/>
+<Profile/>
 </>
   );
 }
