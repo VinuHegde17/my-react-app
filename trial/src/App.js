@@ -5,6 +5,7 @@ import Contact from './screens/Contact';
 import Title from './screens/Title';
 import Profile from './screens/img';
 import ShoppingList from './screens/Shopping';
+import MyApp from './screens/Click';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
 <Contact/>
 <Title/>
 <Profile/>
-<ShoppingList/>      
+<ShoppingList/> 
+<MyApp/>     
 </>
   );
 }
