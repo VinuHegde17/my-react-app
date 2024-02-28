@@ -10,13 +10,13 @@ export default function Phone() {
     fontSize: '16px',
     width: '300px',
     marginBottom: '10px',
-    outline: 'none', 
+    outline: 'none'
   };
 
   return (
     <form style={{padding:'20px'}}>
       <label>
-        ,<b>Enter your phone number:</b>
+        <b>Enter your phone number:</b>
         <br />
         <input 
           type="number"

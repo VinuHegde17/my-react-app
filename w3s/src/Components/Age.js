@@ -16,6 +16,7 @@ function Age() {
     <form style={{padding:'20px'}}>
       <label>
         <b>Enter your age</b>
+        <br />
         <input
           type="number"
           value={name}

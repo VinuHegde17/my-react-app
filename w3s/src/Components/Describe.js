@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 function Describe() {
   const [textarea, setTextarea] = useState("");
@@ -45,7 +46,10 @@ function Describe() {
       />
       <br />
       <div style={containerStyle}>
-        <button style={buttonStyle}>Submit</button>
+        {/* Navigate to the "/New" route */}
+        <Link to="/Phone">
+          <button style={buttonStyle}>Go to Next Page</button>
+        </Link>
       </div>
     </form>
   );

@@ -1,20 +1,19 @@
-import './App.css';
-import Age from './Components/Age';
-import Describe from './Components/Describe';
-import MyForm from './Components/MyForm';
-import Phone from './Components/Phone';
-import Select from './Components/Select';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Form from './Form';
+import Welcome from './Welcome';
 
 function App() {
   return (
-    <div className="App">
-    <h2 style={{textAlign:'center'}}>Bio Info</h2>
-     <MyForm/>
-     <Phone/>
-     <Age/>
-     <Select/>
-     <Describe/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Form />} />
+        <Route path="/welcome" element={<Welcome />} />
+        <Route path="/form" element={<Form />} />
+
+      </Routes>
+    </Router>
   );
 }
+
 export default App;
