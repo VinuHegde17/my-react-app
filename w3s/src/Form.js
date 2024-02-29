@@ -160,6 +160,7 @@ const styles = {
     color: 'white',
     fontSize: '16px',
     cursor: 'pointer',
+    width:'100%'
   },
   lightTheme: {
     background: '#f5f5f5',
