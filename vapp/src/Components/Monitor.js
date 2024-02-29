@@ -5,6 +5,8 @@ import Heffect from './Heffect';
 import Href from './Href';
 import HLeffect from './HLeffect';
 import Hmemo from './Hmemo';
+import Hreducer from './Hreducer';
+import Htrans from './Htrans';
 
 
 function Monitor() {
@@ -16,6 +18,8 @@ function Monitor() {
     <Href/>
     <HLeffect/>
     <Hmemo/>
+    <Hreducer/>
+    <Htrans/>
     </div>
   )
 }
