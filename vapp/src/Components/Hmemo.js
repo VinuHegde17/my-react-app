@@ -16,24 +16,6 @@ function Hmemo() {
     return heavyComputation(count);
   }, [count]);
 
-  const styles = {
-    container: {
-      textAlign: 'center',
-      padding: '20px',
-      border: '1px solid #ccc',
-      borderRadius: '5px',
-    },
-    button: {
-      padding: '10px 20px',
-      borderRadius: '5px',
-      border: 'none',
-      backgroundColor: 'blue',
-      color: 'white',
-      fontSize: '16px',
-      cursor: 'pointer',
-    },
-  };
-
   return (
     <div style={styles.container}>
       <h1>Memo Example</h1>
@@ -45,3 +27,20 @@ function Hmemo() {
 }
 
 export default Hmemo;
+const styles = {
+  container: {
+    textAlign: 'center',
+    padding: '20px',
+    border: '1px solid #ccc',
+    borderRadius: '5px',
+  },
+  button: {
+    padding: '10px 20px',
+    borderRadius: '5px',
+    border: 'none',
+    backgroundColor: 'blue',
+    color: 'white',
+    fontSize: '16px',
+    cursor: 'pointer',
+  },
+};

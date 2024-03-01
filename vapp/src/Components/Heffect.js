@@ -14,6 +14,7 @@ function Heffect() {
     </div>
   );
 }
+export default Heffect;
 
 const styles = {
   container: {
@@ -36,4 +37,3 @@ const styles = {
   }
 };
 
-export default Heffect;

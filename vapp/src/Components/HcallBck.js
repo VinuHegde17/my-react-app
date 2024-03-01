@@ -19,6 +19,7 @@ function HcallBck() {
 function ChildComponent({ onClick }) {
     return <button style={styles.button} onClick={onClick}>Increment Count</button>;
 }
+export default HcallBck;
 
 const styles = {
     container: {
@@ -45,4 +46,3 @@ const styles = {
     },
 };
 
-export default HcallBck;
