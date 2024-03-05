@@ -7,6 +7,9 @@ import HLeffect from './HLeffect';
 import Hmemo from './Hmemo';
 import Hreducer from './Hreducer';
 import Htrans from './Htrans';
+import Prop from './Prop';
+import Hstate from './Hstate1';
+
 
 
 function Monitor() {
@@ -20,6 +23,8 @@ function Monitor() {
     <Hmemo/>
     <Hreducer/>
     <Htrans/>
+    <Hstate/>
+    <Prop/>
     </div>
   )
 }

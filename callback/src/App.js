@@ -1,12 +1,9 @@
 import './App.css';
-import Monitor from './Components/Monitor'
-
-
+import App1 from './Ex1/App';
 function App() {
   return (
     <div className="App">
-      <Monitor/>
-    
+    <App1/>
     </div>
   );
 }
