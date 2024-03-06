@@ -2,15 +2,17 @@ import React, { useState, useEffect } from 'react';
 
 function Heffect() {
   const [count, setCount] = useState(0);
-
+  const[data,setData]=useState("a")
   useEffect(() => {
     console.log('Component has rendered');
-  }, []);
+  },[data]);
 
   return (
     <div style={styles.container}>
       <p style={styles.text}>Count: {count}</p>
       <button style={styles.button} onClick={() => setCount(count + 1)}>Increment</button>
+      <br />
+      <button style={styles.button} onClick={()=>setData("b")}>Data</button>
     </div>
   );
 }
