@@ -1,13 +1,18 @@
 import './App.css';
-import Monitor from './Components/Monitor'
-
+import React from 'react';
+import ThemeContext from './Components/ThemeContext';
+import Button from './Components/Button';
+import Monitor from './Components/Monitor';
 
 function App() {
   return (
-    <div className="App">
-      <Monitor/>
-    
-    </div>
+    <ThemeContext.Provider value="dark">
+      <div>
+        <h1>My App</h1>
+        <Button />
+        <Monitor/>
+      </div>
+    </ThemeContext.Provider>
   );
 }
 
