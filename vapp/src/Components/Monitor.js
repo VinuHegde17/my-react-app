@@ -11,6 +11,9 @@ import Prop from './Prop';
 import Hstate from './Hstate1';
 import StatusBar from './Hdebugg';
 import ParentComponent from './ParentComponent';
+import Parent from './Parent';
+import Leffec from './Leffec';
+import Stopwatch from './Stopwatch';
 
 
 
@@ -34,6 +37,12 @@ function Monitor() {
     <StatusBar/>
     <hr />
     <ParentComponent/>
+    <hr />
+    <Parent/>
+    <hr />
+    <Leffec/>
+    <hr />
+    <Stopwatch/>
   
     </div>
   )
