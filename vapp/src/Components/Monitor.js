@@ -14,6 +14,7 @@ import ParentComponent from './ParentComponent';
 import Parent from './Parent';
 import Leffec from './Leffec';
 import Stopwatch from './Stopwatch';
+import Hstore from './Hstore';
 
 
 
@@ -43,6 +44,8 @@ function Monitor() {
     <Leffec/>
     <hr />
     <Stopwatch/>
+    <hr />
+    <Hstore/>
   
     </div>
   )

@@ -21,9 +21,9 @@ const Htrans = () => {
     width: '200px',
     height: '200px',
     backgroundColor: 'lightblue',
-    transition: 'opacity 0.5s ease',
     opacity: isVisible ? '1' : '0',
     margin: '20px auto',
+    transition: 'opacity 0.5s ease', 
   };
 
   const contentStyle = {
