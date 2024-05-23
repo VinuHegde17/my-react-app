@@ -22,8 +22,8 @@ app.get('/getUsers', (req, res) => {
 });
 
 app.post('/addUser', (req, res) => {
-    const { name, review } = req.body;
-    const newUser = new UserModel({ name, review });
+    const { name, review ,rating} = req.body;
+    const newUser = new UserModel({ name, review,rating });
     newUser.save()
         .then(user => {
             console.log("User added successfully:", user);
@@ -34,6 +34,7 @@ app.post('/addUser', (req, res) => {
             res.status(500).json({ error: "Failed to add user" });
         });
 });
+
 
 app.listen(3001, () => {
   console.log("Server is running");
